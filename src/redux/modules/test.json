@@ -1,0 +1,46 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "name": "Cool Hat",
+      "tags": [
+        "hat",
+        "clothing"
+      ],
+      "description": "This is a really cool hat",
+      "price": 20,
+      "owner": "Nick Wimmer"
+    },
+    {
+      "id": 2,
+      "name": "Cool Shirt",
+      "tags": [
+        "shirt",
+        "clothing"
+      ],
+      "description": "This is a really cool shirt",
+      "price": 30,
+      "owner": "Nick Wimmer"
+    },
+    {
+      "id": 3,
+      "name": "Cool Poster",
+      "tags": [
+        "art",
+        "poster"
+      ],
+      "description": "This is a really cool poster",
+      "price": 10,
+      "owner": "Nick Wimmer"
+    }
+  ],
+  "shoppingCart": [
+    {
+      "id": 1,
+      "name": "Cool Hat",
+      "description": "This is a really cool hat",
+      "price": 20,
+      "owner": "Nick Wimmer"
+    }
+  ]
+}

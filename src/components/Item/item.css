@@ -1,0 +1,31 @@
+.item-container {
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 4%;
+  height: 180px;
+  max-width: 220px;
+  flex: 0 1 48%; }
+  .item-container .item-content {
+    position: relative;
+    padding: 2px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #eee; }
+  .item-container .item-image {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer; }
+  .item-container .hover-text {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000; }
+    .item-container .hover-text:hover {
+      display: block;
+      background-color: #fff;
+      opacity: .5; }
+    .item-container .hover-text .hover-info {
+      padding: 1rem; }

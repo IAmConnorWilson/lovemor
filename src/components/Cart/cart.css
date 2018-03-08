@@ -1,0 +1,55 @@
+.tradesWrapper {
+  min-height: 40vh; }
+  .tradesWrapper .addTradeWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 3rem 0; }
+  .tradesWrapper .allItemsBtn {
+    border-bottom: solid 2px; }
+  .tradesWrapper .tradeBtn {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 0;
+    background: transparent;
+    text-transform: uppercase;
+    transition: all, .3s;
+    cursor: pointer; }
+    .tradesWrapper .tradeBtn:hover {
+      color: #222; }
+  .tradesWrapper .allCartTitles {
+    border-bottom: solid 2px; }
+  .tradesWrapper .cartTitle {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 0;
+    background: transparent;
+    text-transform: uppercase;
+    transition: all, .3s; }
+  .tradesWrapper .totalBox {
+    padding-top: 1rem;
+    border-top: 2px rgba(0, 0, 0, 0.3) solid;
+    display: flex; }
+    .tradesWrapper .totalBox .totalText {
+      flex: auto; }
+  .tradesWrapper .checkoutBtnCtnr {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+    .tradesWrapper .checkoutBtnCtnr .checkoutBtn {
+      margin: 2rem 0 0 0;
+      background: #222;
+      color: #fff;
+      cursor: pointer; }
+  .tradesWrapper .emptyCartMsg {
+    margin: 1rem 0 0 0; }
+
+.tradesInfoWrapper {
+  display: flex;
+  flex-direction: column; }
+  .tradesInfoWrapper h3 {
+    letter-spacing: 1px; }
+
+.allTradeRequestsWrapper {
+  margin-bottom: 2rem; }
